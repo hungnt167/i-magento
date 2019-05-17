@@ -1,0 +1,27 @@
+{
+  "name": "i-magento",
+  "version": "1.0.0",
+  "description": "Magento Client JS",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hungnt167/i-magento.git"
+  },
+  "devDependencies": {
+    "typescript": "^3.4.5"
+  },
+  "keywords": [
+    "magento"
+  ],
+  "author": "hungnt167",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hungnt167/i-magento/issues"
+  },
+  "homepage": "https://github.com/hungnt167/i-magento#readme"
+}
