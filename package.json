@@ -6,13 +6,19 @@
   "types": "dist/index.d.ts",
   "scripts": {
     "build": "tsc",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "storybook": "tsc; start-storybook -p 6006",
+    "build-storybook": "tsc; build-storybook"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/hungnt167/i-magento.git"
   },
   "devDependencies": {
+    "@babel/core": "^7.4.4",
+    "@babel/plugin-transform-runtime": "^7.4.4",
+    "@storybook/html": "^5.0.11",
+    "babel-loader": "^8.0.6",
     "typescript": "^3.4.5"
   },
   "keywords": [
@@ -23,5 +29,10 @@
   "bugs": {
     "url": "https://github.com/hungnt167/i-magento/issues"
   },
-  "homepage": "https://github.com/hungnt167/i-magento#readme"
+  "homepage": "https://github.com/hungnt167/i-magento#readme",
+  "dependencies": {
+    "@babel/runtime": "^7.4.4",
+    "portable-fetch": "^3.0.0",
+    "url": "^0.11.0"
+  }
 }
