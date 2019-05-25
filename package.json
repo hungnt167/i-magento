@@ -7,8 +7,8 @@
   "scripts": {
     "build": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "storybook": "tsc; start-storybook -p 6006",
-    "build-storybook": "tsc; build-storybook"
+    "storybook": "tsc && start-storybook -p 6006",
+    "build-storybook": "tsc && build-storybook"
   },
   "repository": {
     "type": "git",
